@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="Description" content="This is the place where you can learn Australian English">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Car servicing centre </title>
+    <link type="text/css" href="styles/main.css" rel="stylesheet">
+    <script src="scripts/vendor/materialize.min.js"></script>
+    <link rel="manifest" href="manifest.json">
+    <!-- ios icon support-->
+    <link rel="apple-touch-icon" href="images/icon.png">
+    <meta name="apple-mobile-web-app-status-bar" content="#aa7700">
+    <meta name="theme-color" content="#FFE1C4">
+  </head>
+  <body>
+    <!-- The arrow to go back previous page -->
+    <img class="back-arrow" src="assets/images/backarrow.png" alt="Go back">
+
+    <!-- Home component -->
+    <div class="home home-background">
+      <div class="page-title">
+        <h1 class="center-align hp-title white-text">
+          Car mechanic shop
+          <img src="assets/images/ae-icon-192x192.png" alt="Logo">
+        </h1>
+      </div>
+      <div class="container">
+        <div class="card-panel home-card row white-text waves-effect waves-light">Servicing</div>
+        <div class="card-panel home-card row white-text waves-effect waves-light">Upgrading</div>
+      </div>
+    </div>
+
+    <!-- Slangs component: a list of slangs-->
+    <div class="slangs grey lighten-4">
+      <div class="page-title">
+        <h1 class="center-align pp-title">Servicing</h1>
+      </div>
+      <div class="container ">
+        <div class="row">
+          <div class="col s5 teal z-depth-3 slang-card waves-effect waves-red"></div>
+          <div class="col s5 teal z-depth-3 slang-card push-s1 waves-effect waves-red" ></div>
+        </div>
+        <div class="row">
+          <div class="col s5 teal z-depth-3 slang-card waves-effect waves-red"></div>
+          <div class="col s5 teal z-depth-3 slang-card push-s1 waves-effect waves-red" ></div>
+        </div>
+        <div class="row">
+          <div class="col s5 teal z-depth-3 slang-card waves-effect waves-red"></div>
+          <div class="col s5 teal z-depth-3 slang-card push-s1 waves-effect waves-red" ></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Details component: it is used to show the details of a slang or a phrase -->
+    <!-- The contents of this page will be dynamically changed by Javascript -->
+    <div class="details">
+      <div class="container details-container">
+        <img src="assets/images/l_avo.png" class="detail-img" alt="Image">
+        <h3 class="detail-title">pickup/deliver</h3>
+        <div class="audio-btn waves-effect waves-light"></div>
+        <p class="detail-definition"></p>
+      </div>
+    </div>
+
+    <!-- Phrase component: a list of phrases -->
+    <div class="phrases grey lighten-4">
+      <div class="page-title">
+        <h1 class="center-align pp-title">Upgrades</h1>
+      </div>
+      <div class="container grey-text text-darken-1">
+        <div class="card-panel phrase row">
+          <div class="phrase-card"></div>
+        </div>
+        <div class="card-panel phrase row">
+          <div class="phrase-card"></div>
+        </div>
+        <div class="card-panel phrase row">
+          <div class="phrase-card"></div>
+        </div>
+        <div class="card-panel phrase row">
+          <div class="phrase-card"></div>
+        </div>
+        <div class="card-panel phrase row">
+          <div class="phrase-card"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom navigation -->
+    <div class="center-align bottom-nav" >
+        <i class="material-icons home-btn home-btn-title">account_balance</i>
+        <div class="black-text">Home</div>
+    </div>
+
+    <script src="scripts/app.js"></script>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
