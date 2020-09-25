@@ -1,14 +1,14 @@
 {
-    "name": "Learn With Fun",
-    "short_name": "FunLearn",
+    "name": "Car service centre",
+    "short_name": "servicing ",
     "icons": [
         {
-            "src": "images/icons/funlearn.jpg",
+            "src": "images/icons/servicing.jpg",
             "sizes": "840x613",
             "type": "image/jpg"
         },
         {
-            "src": "images/icons/funlearn1.png",
+            "src": "images/icons/servicing.png",
             "sizes": "256x256",
             "type": "image/png"
         }
