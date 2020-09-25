@@ -1,15 +1,15 @@
 {
-  "name": "Learn With Fun",
+  "name": "Car service centre",
   "version": "1.0.0",
-  "description": "A project to encourage learning with fun and entertainment.",
+  "description": "A project for servicing cars.",
   "main": "src",
   "scripts": {
     "build": "gulp",
     "watch": "gulp watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Sudarshan Kumar Bhattarai",
-  "license": "SKB",
+  "author": "Ayush Neupane",
+  "license": "AN",
   "devDependencies": {
     "babel": "^6.23.0",
     "babel-preset-env": "^1.7.0",
