@@ -7,50 +7,77 @@
     <div class='main'
     <nav>
        <div class='logo'>
-         <img src='images/logo.png'>
+         <img src='../images/category/logo.jpg'>
        </div>
        <div class=' nav-links'>
          <ul>
-           <li><a href='#'>Home</a></li>
-           <li><a href='#'>Servicing</a></li>
-           <li><a href='#'>Pickup and dropoff</a></li>
-           <li><a href='#'>Booking</a></li>
+           <li><a href='index.html'>Home</a></li>
+           <li><a href='servicing.html'>Servicing</a></li>
+           <li><a href='Pickup and drop off.html'>Pickup and dropoff</a></li>
+           <li><a href='booking.html'>Booking</a></li>
          </ul>
        </div>
      </nav>
      <div class= 'information'>
+       <img src='../images/category/logo.jpg' class='Logo'>
+       <div class= "overlay"></div>
        <div id ='circle'>
-         <div class= 'feature one '>
-            <img src= 'images/light.png'>
+         <div class= 'feature one'>
+            <img src= '../images/category/light.jpg'>
           <div>
-          <h1> Neon lights<h1>
+          <h1> Neon lights</h1>
             <p> blue,violet,red,green</p>
     </div>
   </div>
          <div class= 'feature two'>
-             <img src= 'images/interior.png'>
+             <img src= "../images/category/interior.jpg">
              <div>
-             <h1> Interior<h1>
+             <h1> Interior</h1>
                <p> leather,plastic,cotton</p>
              </div>
            </div>
          <div class= 'feature three'>
-              <img src= 'images/exterior.png'>
+              <img src= '../images/category/exterior.jpg'>
               <div>
-              <h1> Exterior<h1>
+              <h1> Exterior</h1>
                 <p> carbon,metal,body kits</p>
               </div>
             </div>
          <div class= 'feature four '>
-               <img src= 'images/performance.png'
+               <img src= '../images/category/performance.jpg'
                <div>
-               <h1> Performance<h1>
-                 <p> tune,upgrade,transmission</p>
+               <h1> Performance</h1>
+                 <p>tune,upgrade,transmission</p>
                </div>
              </div>
        </div>
      </div>
-
+       <div class='controls'>
+         <img src= "../images/category/arrow.png" id= 'upBtn'>
+         <h3> feature </h3>
+         <img src= "../images/category/arrow.png" id='downbtn'>
    </div>
+
+   <script>
+   var circle = document.getElementByID('circle');
+   var upBtn = document.getElementByID('upBtn');
+   var downBtn = document.getElementByID('downBtn');
+
+     var rotateValue= circle.style.transform;
+     var rotateSum;
+
+  upBtn.onclick=function()
+  {
+    rotateSum= rotateValue + 'rotate(-90deg)';
+    circle.style.transform= rotateSum;
+    rotateValue= rotateSum;
+  }
+  downBtn.onclick=function()
+  {
+    rotateSum= rotateValue + 'rotate(90deg)';
+    circle.style.transform= rotateSum;
+    rotateValue= rotateSum;
+  }
+  </script>
   </body>
   </html>
